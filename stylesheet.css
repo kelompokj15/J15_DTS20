@@ -1,0 +1,53 @@
+  body {
+    margin: 0;
+    font-family: "Lucida Grande";
+    background-color: azure;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    background-color: aqua;
+  }
+
+  /* dari sini */
+  header{
+      padding:10px 0;
+      width: 100%;
+      background-color: aqua;
+      color: black;
+  }
+
+
+  /* konten utama */
+  .main-content{
+      height: 400px;
+      background-color: blanchedalmond;
+  }
+
+  /* extra 1 */
+  .extra-1{
+      height: 400px;
+      background-color: aquamarine;
+  }
+
+  /* extra 2 */
+  .extra-2{
+    height: 400px;
+    background-color:azure;
+  }
+
+  /* footer */
+  footer{
+    height: 100px;
+    background-color: darkslategrey;
+  }
