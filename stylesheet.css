@@ -1,36 +1,28 @@
   body {
     margin: 0;
     font-family: "Lucida Grande";
-    background-color: azure;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  .clear {
-    clear: left;
   }
   
   .container {
     max-width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
-    background-color: aqua;
   }
 
-  /* dari sini */
+  /* header*/
   header{
-      padding:10px 0;
+      height: 65px;
       width: 100%;
       background-color: aqua;
-      color: black;
+      position: fixed;
+      top: 0;
+      z-index: 10;
   }
 
 
   /* konten utama */
   .main-content{
-      height: 400px;
+      height: 600px;
       background-color: blanchedalmond;
   }
 
