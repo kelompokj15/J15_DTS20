@@ -43,3 +43,50 @@
     line-height:20px;
   }
 }
+
+  /* responsive Header */
+  .right-header {
+      display: none;
+  }
+  .bar-option {
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    line-height: 45px;
+    color: white;
+    display:inline-block;
+    text-align: center;
+  }
+  .bar-ikon{
+      display: flex;
+      margin:5px 15px;
+  }
+  ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+  ul li {
+    display: inline-block;
+  }
+  ul li:hover {
+    background: rgba(29, 29, 29, 0.829) ;
+  }
+  ul li:hover ul {
+    display: block;
+  }
+  ul li ul {
+    position: absolute;
+    width: 85px;
+    display: none;
+  }
+  ul li ul li { 
+    background: rgba(29, 29, 29, 0.829) ; 
+    display: block; 
+  }
+  ul li ul li a {
+    display:block !important;
+  } 
+  ul li ul li:hover {
+    background: #666;
+  }
+  /* Akhir Header */
