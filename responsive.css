@@ -1,9 +1,21 @@
 /* tablet */
 @media(max-width: 1000px){
-
+    .extra2 {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    .container-extra2 {
+        width: 100%;
+    }
 }
 
 /* hp */
 @media(max-width: 670px){
-    
+      .extra2 {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    .container-extra2 {
+        width: 90%;
+    }  
 }
