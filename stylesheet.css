@@ -62,7 +62,7 @@
   }
   ul li ul {
     position: absolute;
-    width: 125px;
+    width: 130px;
     display: none;
   }
   ul li ul li { 
@@ -75,7 +75,12 @@
   ul li ul li:hover {
     background: #666;
   }
-
+  .bar-ikon img{
+    width: 55px;
+  }
+  .bar-ikon{
+    display: none;
+  }
 
   /* konten utama */
 a {
