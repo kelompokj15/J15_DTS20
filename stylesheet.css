@@ -39,9 +39,9 @@
 .extra2 {
     opacity: 1;
     padding: 20px 20px;
-    margin: 40px 40px;
-    border: 1px solid #F39C12;
-    width: 80%;
+    margin: 20px 20px;
+    border: 1px solid #FBEEE6;
+    width: 90%;
     font-family: "Lucida Console";
     background-color: hsla(37, 90%, 51%, 0.1);
     text-indent: 50px;
@@ -49,10 +49,13 @@
     border-radius: 8px;
     transition-duration: 0.4s;
     padding:0 15px;
+    text-indent:10px;
+    text-align: center; 
+    letter-spacing: 3px;
 }
 .extra2:hover{
    animation-name: extra2;
-   animation-duration: 10s;
+   animation-duration: 3s;
    transition-duration: 0.3s;
 }
 
@@ -75,6 +78,7 @@
     border-radius: 8px;
     padding:20px;
 }
+
   /* footer */
   footer{
     height: 100px;
