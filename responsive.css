@@ -1,11 +1,16 @@
 /* tablet */
 @media(max-width: 1000px){
     .extra2 {
-        width: 50%;
-        margin-bottom: 50px;
+        width: 100%;
+        font-size: 100%;
     }
     .container-extra2 {
         width: 100%;
+        font-size: 100%;
+    }
+    .title-extra2 {
+        width: 50%;
+        font-size: 100%;
     }
     .top-wrapper h1{
         font-size:32px;
@@ -14,13 +19,22 @@
 
 /* hp */
 @media(max-width: 670px){
-  .extra2 {
-      width: 50%;
-      margin-bottom: 50px;
-  }
-  .container-extra2 {
-     width: 90%;
-  }
+    .extra2 {
+        width: 100%;
+        font-size: 100%;
+    }
+    .container-extra2 {
+        width: 100%;
+        font-size: 100%;
+    }
+    .text-content {
+        width: 100%;
+        font-size: 100%;
+    }
+    .title-extra2 {
+        width: 50%;
+        font-size: 100%;
+    }
   .btn {
     width: 100%;
   }
