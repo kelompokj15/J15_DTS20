@@ -141,10 +141,75 @@ a {
 }
 
   /* extra 1 */
-  .extra-1{
-      height: 400px;
-      background-color: aquamarine;
-  }
+*{box-sizing: border-box;}
+.lesson-wrapper {
+  padding-bottom: 50px;
+  background-color: #806f66;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  color: #fff2bc;
+}
+
+.heading h2 {
+  font-weight: normal;
+  letter-spacing: 10px;
+  font-family: sans-serif
+}
+.lessons{
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.lesson {
+  margin: 40px 10px;
+}
+
+.lesson-icon {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: #383636;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.box {
+  position: absolute;
+  top: 200px;
+  left: 0px;
+  width: 200px;
+  height: 50px;
+  background-color: #ff5a0b;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: block;
+}
+
+
+.foto {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  width: 80%;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  color: #fff2bc;
+  font-family: sans-serif;
+  letter-spacing: 10px;
+  font-weight: normal;
+}
+
 
   /* extra 2 */
 * {
