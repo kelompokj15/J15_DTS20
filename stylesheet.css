@@ -232,8 +232,12 @@ a {
  /* extra 2 */
 
   /* footer */
-  footer{
+  .footer{
     widht:100px;
     height: 100px;
     background-color:#50C785;
   }
+.footer hr {
+  width:50px;
+  align:center;
+}
