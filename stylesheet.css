@@ -241,7 +241,7 @@ a {
 
   /* footer */
 .footer{
-    font-size: 25px;
+  font-size: 25px;
     padding-top: 20px;
     padding-bottom: 20px;
     background: #161717;
@@ -249,7 +249,6 @@ a {
     text-align: center;
     margin-top: 5px;
 }
-
 .footer hr {
   width:200px;
   align:center;
