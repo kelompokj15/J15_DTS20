@@ -233,18 +233,17 @@ a {
 
   /* footer */
   .footer{
-    widht:100px;
-    height: 100px;
-    background-color:#50C785;
     font-size: 25px;
     padding-top: 20px;
-    padding-right:50px;
     padding-bottom: 20px;
-    color:#0000;
+    background-color: #50C785;
+    color: #ffffff;
     text-align: center;
     margin-top: 5px;
+    
+    
   }
 .footer hr {
-  width:80px;
+  width:100px;
   align:center;
 }
