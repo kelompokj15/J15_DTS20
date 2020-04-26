@@ -233,6 +233,7 @@ a {
 
   /* footer */
   footer{
+    widht:100px;
     height: 100px;
-    background-color: darkslategrey;
+    background-color:#50C785;
   }
