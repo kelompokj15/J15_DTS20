@@ -240,7 +240,7 @@ a {
  /* extra 2 */
 
   /* footer */
- .footer{
+.footer{
     widht:100px;
     height: 100px;
     background-color:#50C785;
@@ -250,13 +250,8 @@ a {
     color:#0000;
     text-align: center;
     margin-top: 5px;
-     
   }
-.footer src{
-  align:left;
-  height: 100px
-}
 .footer hr {
-  width:150px;
+  width:100px;
   align:center;
 }
